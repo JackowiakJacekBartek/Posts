@@ -1,0 +1,32 @@
+{
+  "posts": [
+    {
+      "id": 2,
+      "title": "How to be a ninja11dgbngd",
+      "author": "Ralem12233",
+      "body": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using"
+    },
+    {
+      "id": 3,
+      "title": "Where can I get some?1143",
+      "author": "Polak",
+      "body": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words"
+    },
+    {
+      "id": 7,
+      "title": "cgnfgh",
+      "author": "fhj",
+      "body": "fj"
+    },
+    {
+      "id": 8,
+      "title": "trj3321445235",
+      "author": "ryjrjy",
+      "body": "ryjjyy"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

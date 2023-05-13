@@ -1,0 +1,22 @@
+<div class="container">
+  <mat-card-header>Add new Post</mat-card-header>
+  <form [formGroup]="postFormGroup" (ngSubmit)="savePost(postFormGroup)">
+    <!--Title-->
+    <mat-form-field>
+      <input matInput placeholder="Title" formControlName="title">
+      <mat-error *ngIf="postFormGroup.get('title')?.getError('required')">Please specify title</mat-error>
+    </mat-form-field>
+    <!--Author-->
+    <mat-form-field appearance="fill">
+      <input matInput placeholder="Author" formControlName="author">
+      <mat-error *ngIf="postFormGroup.get('author')?.getError('required')">Please specify author</mat-error>
+    </mat-form-field>
+    <!--Body-->
+    <mat-form-field appearance="fill">
+      <textarea rows="6" cols="50" matInput placeholder="Text" formControlName="body"></textarea>
+      <mat-error *ngIf="postFormGroup.get('body')?.getError('required')">Please specify text</mat-error>
+    </mat-form-field>
+    <!--Button submit-->
+    <button mat-button class="savePost"><span>Save post</span></button>
+  </form>
+</div>
