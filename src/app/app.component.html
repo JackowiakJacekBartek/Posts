@@ -1,1 +1,26 @@
-bdbhdbh
+<mat-toolbar>
+  <span>Mini Forum</span>
+</mat-toolbar>
+<ng-container *ngIf="isOk">
+  <div class="container">
+    <mat-card class="example-card" *ngFor="let post of myPosts">
+      <mat-card-header>
+        <mat-card-title>{{post.title}}</mat-card-title>
+        <mat-card-subtitle>{{post.author}}</mat-card-subtitle>
+      </mat-card-header>
+      <mat-card-content>
+        <p>{{post.body}}</p>
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-button (click)="openDialogEditPost(post)">EDIT</button>
+        <button mat-button (click)="deletePost(post.id)">DELETE</button>
+      </mat-card-actions>
+    </mat-card>
+    <button class="addPostButton" mat-raised-button (click)="openDialogAddPost()">Add new post</button>
+  </div>
+</ng-container>
+<ng-container *ngIf="!isOk">
+  <div class="error">
+    <span>Please run "json-server --watch db/db.json --id id"</span>
+  </div>
+</ng-container>

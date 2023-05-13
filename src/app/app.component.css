@@ -1,0 +1,28 @@
+.example-card:first-child{
+  margin-top: 20px;
+}
+
+.example-card {
+  max-width: 800px;
+  min-width: 800px;
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.addPostButton {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.error {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
