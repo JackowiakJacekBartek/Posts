@@ -1,2 +1,4 @@
-![Posts](https://github.com/JackowiakJacekBartek/Posts/assets/93043633/0de6a3b6-3c9d-4a5a-847d-d736a83975a4)
-![Posts2](https://github.com/JackowiakJacekBartek/Posts/assets/93043633/008b5844-37ff-445b-a4d5-93268b589646)
+json-server --watch db/db.json --id id
+
+![1](https://github.com/JackowiakJacekBartek/Posts/assets/93043633/71d29f83-294d-4959-9cc6-c321d6f59bf2)
+![2](https://github.com/JackowiakJacekBartek/Posts/assets/93043633/7c4e28e8-cae8-4c46-9511-ded1eaee4a95)
